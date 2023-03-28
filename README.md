@@ -5,4 +5,5 @@ FOREX arbitrage REST API.
 ``` python
 pip install requests
 pip install flask
+pip install pipenv
 ```

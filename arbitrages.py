@@ -68,6 +68,7 @@ if __name__ == "__main__":
     arbitrages = find_arbitrage(rates_array,conversion_rates_EUR,index)
 
     sourceFile = open('arbitrage.txt', 'w')
+    print("arbitrages", file=sourceFile)
     for arbitrage in arbitrages:
         for currency in arbitrage:
             print(currency, end = " ", file = sourceFile)
