@@ -7,4 +7,5 @@ pip install requests
 pip install flask
 pip install pipenv
 ```
+Used postman to access API data and make changes.
 ![Postman-API](postman-api.png)
